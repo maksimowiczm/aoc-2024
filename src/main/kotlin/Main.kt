@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
     val solution: Solution? = when (args[0]) {
         "1" -> when (args[1]) {
             "1" -> Day01.part1
+            "2" -> Day01.part2
             else -> null
         }
 
