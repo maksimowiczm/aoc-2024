@@ -16,4 +16,28 @@ class Day02Tests : FunSpec({
 
         result shouldBe 2
     }
+
+    test("Part 2 Example") {
+        val input = """7 6 4 2 1
+1 2 7 8 9
+9 7 6 2 1
+1 3 2 4 5
+8 6 4 4 1
+1 3 6 7 9
+"""
+
+        val result = Day02.part2(input)
+
+        result shouldBe 4
+    }
+
+    test("Part 2 Example 2") {
+        val input = """
+        1 3 2 1
+        """.trimIndent()
+
+        val result = Day02.part2(input)
+
+        result shouldBe 1
+    }
 })

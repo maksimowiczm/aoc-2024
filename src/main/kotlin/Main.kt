@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
 
         "2" -> when (args[1]) {
             "1" -> Day02.part1
+            "2" -> Day02.part2
             else -> null
         }
 
