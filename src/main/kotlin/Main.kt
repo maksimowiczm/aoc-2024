@@ -17,6 +17,11 @@ fun main(args: Array<String>) {
             else -> null
         }
 
+        "2" -> when (args[1]) {
+            "1" -> Day02.part1
+            else -> null
+        }
+
         else -> null
     }
 
