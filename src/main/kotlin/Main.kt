@@ -23,6 +23,12 @@ fun main(args: Array<String>) {
             else -> null
         }
 
+        "3" -> when (args[1]) {
+            "1" -> Day03.part1
+            "2" -> Day03.part2
+            else -> null
+        }
+
         else -> null
     }
 
